@@ -1,0 +1,74 @@
+h1,
+h2,
+h3 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: -1px;
+    color: var(--white);
+}
+
+h1 {
+    font-size: 4.8rem;
+    color: var(--gray-colors-100);
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--white-colors-text);
+}
+
+.btn-primary {
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    display: inline-block;
+    background-color: var(--brand-color-pink);
+    padding: 1.2rem 3.4rem;
+    color: var(--gray-colors-100);
+}
+
+.btn-lg {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.menu-item {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1.2rem 2.4rem;
+    background-color: var(--gray-colors-50);
+    color: var(--gray-colors-400);
+}
+
+.card {
+    height: 38.2rem;
+    padding: 4.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 0.1rem solid red; */
+    background-color: var(--gray-colors-200);
+}
+
+.card img {
+    height: 6.4rem;
+    margin-bottom: 4.8rem;
+}
+
+.dividir {
+    display: flex;
+    width: 100%;
+    background-color: var(--white-colors-dividir);
+    height: 1.2px;
+}
