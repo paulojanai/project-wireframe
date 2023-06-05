@@ -114,9 +114,27 @@ header .menu-mobile {
     margin-bottom: 10rem;
 }
 
-.sub-s-01 {
+.sub-s-01-header {
+    border: 1px solid red;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6.4rem;
+}
+
+.listview-image {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 14rem auto 20rem;
+    grid-template-rows: repeat(10rem auto);
+    gap: 3.2rem;
+}
+
+.sub-s-01 .image {
+    border: 1px solid red;
+    background-color: var(--gray-colors-200);
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
