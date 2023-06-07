@@ -6,6 +6,14 @@
     .s-01 .cards {
         gap: 2.4rem;
     }
+
+    .listview-image {
+        gap: 2rem 2%;
+    }
+
+    .sub-s-01 .image {
+        width: 23.5%;
+    }
 }
 
 @media (max-width: 991px) {
@@ -34,13 +42,50 @@
 
     .s-01 .cards {
         flex-direction: column;
-        gap: 1.6rem;
+        gap: 2rem;
+    }
+
+    .card {
+        padding: 4rem 4rem;
     }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .margin-100 {
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+    }
 
-@media (max-width: 600px) {}
+    .sub-s-01-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sub-s-01-header button {
+        margin-top: 3.2rem;
+        width: 100%;
+        max-width: 24rem;
+    }
+
+    .listview-image {
+        gap: 1rem 2%;
+    }
+
+    .sub-s-01 .image {
+        width: 32%;
+    }
+}
+
+@media (max-width: 600px) {
+    .listview-image {
+        gap: 1.6rem 3%;
+    }
+
+    .sub-s-01 .image {
+        width: 48.5%;
+    }
+}
 
 @media (max-width: 480px) {
     html {
@@ -54,5 +99,13 @@
     .s-01 .container {
         margin-top: 8rem;
         margin-bottom: 8rem;
+    }
+
+    .listview-image {
+        gap: 1.6rem 0%;
+    }
+
+    .sub-s-01 .image {
+        width: 100%;
     }
 }

@@ -115,7 +115,6 @@ header .menu-mobile {
 }
 
 .sub-s-01-header {
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,16 +122,15 @@ header .menu-mobile {
 }
 
 .listview-image {
-    border: 1px solid red;
-    display: grid;
-    grid-template-columns: 14rem auto 20rem;
-    grid-template-rows: repeat(10rem auto);
+    display: flex;
+    flex-wrap: wrap;
     gap: 3.2rem;
 }
 
 .sub-s-01 .image {
-    border: 1px solid red;
     background-color: var(--gray-colors-200);
+    width: 17.6rem;
+    padding: 3.6rem 0rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,4 +156,36 @@ header .menu-mobile {
     width: 100%;
     max-width: 69rem;
     text-align: center;
+}
+
+.footer {
+    background-color: var(--gray-colors-100);
+    padding: 8rem 0rem 4rem 0rem;
+
+}
+
+.footer .all-columns {
+    display: flex;
+    gap: 4rem;
+}
+
+.footer .all-columns:first-child {
+    max-width: 28.1rem;
+}
+
+.footer .all-right {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.footer .all-right .boost {
+    display: flex;
+    align-items: center;
+}
+
+.footer .all-right .boost p {
+    font-family: 'Sora', sans-serif;
+    font-size: 1.4rem;
+    margin-right: 0.8rem;
 }

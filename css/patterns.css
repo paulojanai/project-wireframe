@@ -21,6 +21,10 @@ h3 {
     font-size: 2.4rem;
 }
 
+h4 {
+    font-size: 1.8rem;
+}
+
 p {
     font-weight: 400;
     font-size: 1.6rem;
@@ -52,8 +56,7 @@ p {
 }
 
 .card {
-    height: 38.2rem;
-    padding: 4.8rem;
+    padding: 8rem 4.8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
