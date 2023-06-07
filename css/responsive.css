@@ -48,6 +48,24 @@
     .card {
         padding: 4rem 4rem;
     }
+
+    .footer .all-columns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 5.6rem;
+    }
+
+    .footer .all-columns .logo-description {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer .all-columns .column .all-links {
+        align-items: center;
+    }
 }
 
 @media (max-width: 768px) {
