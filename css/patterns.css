@@ -36,6 +36,11 @@ p {
     background-color: var(--brand-color-pink);
     padding: 1.2rem 3.4rem;
     color: var(--gray-colors-100);
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #f790d3;
 }
 
 .btn-lg {
@@ -49,6 +54,12 @@ p {
     padding: 1.2rem 2.4rem;
     background-color: var(--gray-colors-50);
     color: var(--gray-colors-400);
+    transition: all 0.3s;
+}
+
+.menu-item:hover {
+    background-color: var(--gray-colors-200);
+    color: var(--white);
 }
 
 .card {
