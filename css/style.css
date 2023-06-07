@@ -232,6 +232,10 @@ header .menu-mobile {
     align-items: center;
 }
 
+.footer .all-right p {
+    font-size: 1.4rem;
+}
+
 .footer .all-right .boost p {
     font-family: 'Sora', sans-serif;
     font-size: 1.4rem;

@@ -103,6 +103,11 @@
     .sub-s-01 .image {
         width: 48.5%;
     }
+
+    .footer .all-right p {
+        width: 100%;
+        max-width: 32rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -125,5 +130,10 @@
 
     .sub-s-01 .image {
         width: 100%;
+    }
+
+    .footer .all-right p {
+        width: 100%;
+        max-width: 20rem;
     }
 }
